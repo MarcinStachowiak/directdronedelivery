@@ -1,8 +1,8 @@
 package directdronedelivery.drone.service;
 
-import directdrondelivery.entity.Drone;
-import directdrondelivery.entity.enumerators.DroneStatus;
-import directdrondelivery.entity.enumerators.DroneType;
+import directdronedelivery.entity.Drone;
+import directdronedelivery.entity.enumerators.DroneStatus;
+import directdronedelivery.entity.enumerators.DroneType;
 
 public interface DroneService {
 	public Drone createDrone(String name, DroneStatus droneStatus, DroneType droneType);

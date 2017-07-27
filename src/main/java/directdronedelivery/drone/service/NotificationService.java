@@ -1,6 +1,6 @@
 package directdronedelivery.drone.service;
 
-import directdrondelivery.entity.Flight;
+import directdronedelivery.entity.Flight;
 
 public interface NotificationService {
 	public void nofifyAboutShipmentStatus(Flight flight);

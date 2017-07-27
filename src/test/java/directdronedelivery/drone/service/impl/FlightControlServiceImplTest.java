@@ -11,17 +11,17 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import directdrondelivery.entity.Cargo;
-import directdrondelivery.entity.Drone;
-import directdrondelivery.entity.Flight;
-import directdrondelivery.entity.Weather;
-import directdrondelivery.entity.enumerators.DroneStatus;
-import directdrondelivery.entity.enumerators.DroneType;
 import directdronedelivery.dao.FlightDao;
 import directdronedelivery.drone.ds.DroneStartResultDs;
 import directdronedelivery.drone.service.FlightControlService;
 import directdronedelivery.drone.service.NotificationService;
 import directdronedelivery.drone.service.WeatherService;
+import directdronedelivery.entity.Cargo;
+import directdronedelivery.entity.Drone;
+import directdronedelivery.entity.Flight;
+import directdronedelivery.entity.Weather;
+import directdronedelivery.entity.enumerators.DroneStatus;
+import directdronedelivery.entity.enumerators.DroneType;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FlightControlServiceImplTest {

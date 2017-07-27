@@ -3,10 +3,10 @@ package directdronedelivery.dao;
 import java.util.Date;
 import java.util.List;
 
-import directdrondelivery.entity.Cargo;
-import directdrondelivery.entity.Drone;
-import directdrondelivery.entity.Flight;
-import directdrondelivery.entity.Weather;
+import directdronedelivery.entity.Cargo;
+import directdronedelivery.entity.Drone;
+import directdronedelivery.entity.Flight;
+import directdronedelivery.entity.Weather;
 
 public interface FlightDao {
 	public Flight createFlight(Drone drone, Cargo cargo, Weather weather,Date flightTime);

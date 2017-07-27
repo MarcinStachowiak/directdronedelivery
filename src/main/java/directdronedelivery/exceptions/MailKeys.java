@@ -1,4 +1,4 @@
-package directdrondelivery.exceptions;
+package directdronedelivery.exceptions;
 
 public class MailKeys {
 	public static final String LOGIN = "capdronedelivery@gmail.com";

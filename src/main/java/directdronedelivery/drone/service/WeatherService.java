@@ -1,6 +1,6 @@
 package directdronedelivery.drone.service;
 
-import directdrondelivery.entity.Weather;
+import directdronedelivery.entity.Weather;
 
 public interface WeatherService {
 	public boolean areWeatherConditionsGoodForFly(Weather weather);

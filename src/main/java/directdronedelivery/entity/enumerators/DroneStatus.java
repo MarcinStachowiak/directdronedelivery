@@ -1,4 +1,4 @@
-package directdrondelivery.entity.enumerators;
+package directdronedelivery.entity.enumerators;
 
 public enum DroneStatus {
     DOCKED, CARGO_LOADING, READY_FOR_TAKE_OFF, AIRBORNE,LANDING_AT_THE_DESTINATION, RETURNING_TO_WAREHOUS,

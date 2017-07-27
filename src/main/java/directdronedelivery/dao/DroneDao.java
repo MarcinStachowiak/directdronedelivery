@@ -2,9 +2,9 @@ package directdronedelivery.dao;
 
 import java.util.List;
 
-import directdrondelivery.entity.Drone;
-import directdrondelivery.entity.enumerators.DroneStatus;
-import directdrondelivery.entity.enumerators.DroneType;
+import directdronedelivery.entity.Drone;
+import directdronedelivery.entity.enumerators.DroneStatus;
+import directdronedelivery.entity.enumerators.DroneType;
 
 public interface DroneDao {
 	public Drone findDroneByName(String droneName);

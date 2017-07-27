@@ -1,4 +1,4 @@
-package directdrondelivery.exceptions;
+package directdronedelivery.exceptions;
 
 import java.util.Set;
 

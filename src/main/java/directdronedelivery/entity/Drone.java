@@ -1,4 +1,4 @@
-package directdrondelivery.entity;
+package directdronedelivery.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,8 +9,8 @@ import javax.persistence.Id;
 
 import javax.persistence.Table;
 
-import directdrondelivery.entity.enumerators.DroneStatus;
-import directdrondelivery.entity.enumerators.DroneType;
+import directdronedelivery.entity.enumerators.DroneStatus;
+import directdronedelivery.entity.enumerators.DroneType;
 
 @Entity
 @Table(name = "DRONE")

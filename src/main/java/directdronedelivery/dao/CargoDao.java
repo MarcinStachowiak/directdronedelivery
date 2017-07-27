@@ -1,6 +1,6 @@
 package directdronedelivery.dao;
 
-import directdrondelivery.entity.Cargo;
+import directdronedelivery.entity.Cargo;
 
 public interface CargoDao {
 	public Cargo findCargoByName(String cargoName);

@@ -1,4 +1,4 @@
-package directdrondelivery.entity;
+package directdronedelivery.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

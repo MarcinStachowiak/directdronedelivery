@@ -1,4 +1,4 @@
-package directdrondelivery.entity;
+package directdronedelivery.entity;
 
 
 import java.sql.Types;
