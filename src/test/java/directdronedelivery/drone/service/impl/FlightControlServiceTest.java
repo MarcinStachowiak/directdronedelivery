@@ -1,8 +1,7 @@
 package directdronedelivery.drone.service.impl;
 
-import static org.hamcrest.MatcherAssert.assertThat;
+
 import static org.mockito.BDDMockito.given;
-import static org.hamcrest.Matchers.*;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -12,16 +11,9 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import directdronedelivery.dao.FlightDao;
-import directdronedelivery.drone.ds.DroneStartResultDs;
 import directdronedelivery.drone.service.FlightControlService;
-import directdronedelivery.drone.service.NotificationService;
-import directdronedelivery.drone.service.WeatherService;
-import directdronedelivery.entity.Cargo;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.Flight;
-import directdronedelivery.entity.Weather;
-import directdronedelivery.entity.enumerators.DroneStatus;
-import directdronedelivery.entity.enumerators.DroneType;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FlightControlServiceTest {
@@ -29,55 +21,32 @@ public class FlightControlServiceTest {
 	@Mock
 	private FlightDao flightDao;
 
-	@Mock
-	private WeatherService weatherService;
-
-	@Mock
-	private NotificationService notificationService;
+	// please, implement others mocks
 
 	private FlightControlService flightControlService = null;
 
 	@Before
 	public void setup() {
-		flightControlService = new FlightControlServiceImpl(flightDao, weatherService, notificationService);
+		flightControlService = new FlightControlServiceImpl(flightDao, null, null);
 		given(flightDao.findCurrentDroneFlight(Mockito.any(Drone.class))).willReturn(buildFlight());
-		given(weatherService.areWeatherConditionsGoodForFly(Mockito.any(Weather.class))).willReturn(true);
 	}
 
 	@Test
 	public void shouldCheckThatDroneCanStart() {
 		// given
-		Drone drone = buildDrone();
+		// todo
 
 		// when
-		DroneStartResultDs result = flightControlService.canDroneStart(drone);
+		// todo
 
 		// then
-		assertThat(result, notNullValue());
-		assertThat(result.isCanDroneStart(), is(true));
-		assertThat(result.getReasons(), empty());
-	}
-
-	private Drone buildDrone() {
-		Drone drone = new Drone();
-		drone.setType(DroneType.BIG_SIX_ROTORS);
-		drone.setStatus(DroneStatus.READY_FOR_TAKE_OFF);
-		return drone;
+		// todo
 	}
 
 	private Flight buildFlight() {
 		Flight flight = new Flight();
-		flight.setCargo(buildCargo());
+		// please, implement an Flight object
 		return flight;
-	}
-
-	private Cargo buildCargo() {
-		Cargo cargo = new Cargo();
-		cargo.setHeight(10);
-		cargo.setLength(10);
-		cargo.setWidth(10);
-		cargo.setWeight(1000);
-		return cargo;
 	}
 
 }
