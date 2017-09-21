@@ -24,7 +24,7 @@ import directdronedelivery.entity.enumerators.DroneStatus;
 import directdronedelivery.entity.enumerators.DroneType;
 
 @RunWith(MockitoJUnitRunner.class)
-public class FlightControlServiceImplTest {
+public class FlightControlServiceTest {
 
 	@Mock
 	private FlightDao flightDao;

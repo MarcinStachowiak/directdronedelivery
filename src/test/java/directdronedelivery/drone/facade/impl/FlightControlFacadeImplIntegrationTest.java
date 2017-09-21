@@ -15,7 +15,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import directdronedelivery.application.DirectDronedeliverApplication;
+import directdronedelivery.application.DirectdronedeliverApplication;
 import directdronedelivery.configuration.keys.ProfileKey;
 import directdronedelivery.dao.FlightDao;
 import directdronedelivery.drone.ds.DroneStartResultDs;
@@ -29,7 +29,7 @@ import directdronedelivery.entity.enumerators.DroneType;
 
 @ActiveProfiles(ProfileKey.MOCK_DAO)
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = { DirectDronedeliverApplication.class })
+@ContextConfiguration(classes = { DirectdronedeliverApplication.class })
 public class FlightControlFacadeImplIntegrationTest {
 
     @Autowired
