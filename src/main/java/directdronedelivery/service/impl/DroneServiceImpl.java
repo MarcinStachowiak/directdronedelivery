@@ -1,4 +1,4 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 import com.google.common.base.Preconditions;
 
 import directdronedelivery.dao.DroneDao;
-import directdronedelivery.drone.service.DroneService;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.enumerators.DroneStatus;
 import directdronedelivery.entity.enumerators.DroneType;
+import directdronedelivery.service.DroneService;
 
 /**
  *

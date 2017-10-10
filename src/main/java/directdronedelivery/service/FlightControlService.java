@@ -1,6 +1,6 @@
-package directdronedelivery.drone.service;
+package directdronedelivery.service;
 
-import directdronedelivery.drone.ds.DroneStartResultDs;
+import directdronedelivery.ds.DroneStartResultDs;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.exceptions.DroneCannotStartException;
 

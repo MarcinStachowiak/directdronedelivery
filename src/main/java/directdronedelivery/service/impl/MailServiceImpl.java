@@ -1,4 +1,4 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 import java.util.Properties;
 
@@ -13,8 +13,8 @@ import javax.mail.internet.MimeMessage;
 
 import org.springframework.stereotype.Service;
 
-import directdronedelivery.drone.service.MailService;
 import directdronedelivery.exceptions.MailKeys;
+import directdronedelivery.service.MailService;
 
 /**
  *

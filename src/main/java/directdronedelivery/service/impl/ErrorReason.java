@@ -1,4 +1,4 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 public enum ErrorReason {
     BAD_WEATHER("Cant fly because of bad weather"),

@@ -1,11 +1,11 @@
-package directdronedelivery.drone.facade.impl;
+package directdronedelivery.facade.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import directdronedelivery.drone.facade.WeatherFacade;
-import directdronedelivery.drone.service.WeatherService;
 import directdronedelivery.entity.Weather;
+import directdronedelivery.facade.WeatherFacade;
+import directdronedelivery.service.WeatherService;
 
 @Service
 public class WeatherFacadeImpl implements WeatherFacade {

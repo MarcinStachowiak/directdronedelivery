@@ -1,15 +1,17 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 import static org.mockito.Mockito.mock;
 import org.junit.Before;
 import org.junit.Test;
 
-import directdronedelivery.drone.service.MailService;
-import directdronedelivery.drone.service.NotificationService;
 import directdronedelivery.entity.Cargo;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.Flight;
 import directdronedelivery.entity.enumerators.DroneStatus;
+import directdronedelivery.service.MailService;
+import directdronedelivery.service.NotificationService;
+import directdronedelivery.service.impl.MailServiceImpl;
+import directdronedelivery.service.impl.NotificationServiceImpl;
 
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;

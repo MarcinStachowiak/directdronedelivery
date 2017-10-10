@@ -1,8 +1,8 @@
-package directdronedelivery.drone.ds;
+package directdronedelivery.ds;
 
 import java.util.Set;
 
-import directdronedelivery.drone.service.impl.ErrorReason;
+import directdronedelivery.service.impl.ErrorReason;
 
 
 public class DroneStartResultDs {

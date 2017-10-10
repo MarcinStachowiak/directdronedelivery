@@ -1,4 +1,4 @@
-package directdronedelivery.drone.facade.impl;
+package directdronedelivery.facade.impl;
 
 import org.junit.Before;
 import org.junit.Test;

@@ -1,9 +1,9 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 import org.springframework.stereotype.Service;
 
-import directdronedelivery.drone.service.WeatherService;
 import directdronedelivery.entity.Weather;
+import directdronedelivery.service.WeatherService;
 
 /**
  *

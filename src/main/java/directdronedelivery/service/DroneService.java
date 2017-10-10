@@ -1,4 +1,4 @@
-package directdronedelivery.drone.service;
+package directdronedelivery.service;
 
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.enumerators.DroneStatus;

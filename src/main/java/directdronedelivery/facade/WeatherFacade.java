@@ -1,7 +1,7 @@
-package directdronedelivery.drone.service;
+package directdronedelivery.facade;
 
 import directdronedelivery.entity.Weather;
 
-public interface WeatherService {
+public interface WeatherFacade {
 	public boolean areWeatherConditionsGoodForFly(Weather weather);
 }

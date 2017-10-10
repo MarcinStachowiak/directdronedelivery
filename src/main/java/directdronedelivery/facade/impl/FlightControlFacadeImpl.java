@@ -1,12 +1,12 @@
-package directdronedelivery.drone.facade.impl;
+package directdronedelivery.facade.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import directdronedelivery.drone.facade.FlightControlFacade;
-import directdronedelivery.drone.service.DroneService;
-import directdronedelivery.drone.service.FlightControlService;
 import directdronedelivery.entity.Drone;
+import directdronedelivery.facade.FlightControlFacade;
+import directdronedelivery.service.DroneService;
+import directdronedelivery.service.FlightControlService;
 
 @Service
 public class FlightControlFacadeImpl implements FlightControlFacade {

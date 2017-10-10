@@ -1,4 +1,4 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 
 import static org.mockito.BDDMockito.given;
@@ -11,9 +11,10 @@ import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
 import directdronedelivery.dao.FlightDao;
-import directdronedelivery.drone.service.FlightControlService;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.Flight;
+import directdronedelivery.service.FlightControlService;
+import directdronedelivery.service.impl.FlightControlServiceImpl;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FlightControlServiceTest {

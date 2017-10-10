@@ -1,14 +1,14 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import directdronedelivery.drone.service.MailService;
-import directdronedelivery.drone.service.NotificationService;
 import directdronedelivery.entity.Cargo;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.Flight;
 import directdronedelivery.entity.enumerators.DroneStatus;
+import directdronedelivery.service.MailService;
+import directdronedelivery.service.NotificationService;
 
 /**
  *

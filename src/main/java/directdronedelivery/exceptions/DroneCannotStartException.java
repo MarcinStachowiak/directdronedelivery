@@ -2,7 +2,7 @@ package directdronedelivery.exceptions;
 
 import java.util.Set;
 
-import directdronedelivery.drone.service.impl.ErrorReason;
+import directdronedelivery.service.impl.ErrorReason;
 
 @SuppressWarnings("serial")
 public class DroneCannotStartException extends RuntimeException {

@@ -1,4 +1,4 @@
-package directdronedelivery.drone.service.impl;
+package directdronedelivery.service.impl;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,16 +7,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import directdronedelivery.dao.FlightDao;
-import directdronedelivery.drone.ds.DroneStartResultDs;
-import directdronedelivery.drone.service.FlightControlService;
-import directdronedelivery.drone.service.NotificationService;
-import directdronedelivery.drone.service.WeatherService;
+import directdronedelivery.ds.DroneStartResultDs;
 import directdronedelivery.entity.Cargo;
 import directdronedelivery.entity.Drone;
 import directdronedelivery.entity.Flight;
 import directdronedelivery.entity.enumerators.DroneStatus;
 import directdronedelivery.entity.enumerators.DroneType;
 import directdronedelivery.exceptions.DroneCannotStartException;
+import directdronedelivery.service.FlightControlService;
+import directdronedelivery.service.NotificationService;
+import directdronedelivery.service.WeatherService;
 
 /**
  *
